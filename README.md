@@ -20,6 +20,7 @@ A distributed file system based on the principles of the Google File System (GFS
   - **Lease & Unlease**: Clients can lock files temporarily for exclusive write access.
 
 ## Project Structure
+```
 project-root/
 ├── src/                              # Source code for the system
 │   ├── master_server.py              # Manages metadata, chunk locations, leasing, and client requests
@@ -31,6 +32,7 @@ project-root/
 │   ├── master_server.log             # Log for the master server
 │   ├── chunk_server_1.log            # Log for chunk server 1
 │   ├── chunk_server_2.log            # Log for chunk server 2
+```
 
 ## Usage
 
